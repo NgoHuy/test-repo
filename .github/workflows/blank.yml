@@ -14,4 +14,4 @@ jobs:
     - name: Run a multi-line script
       run: |
         pwd
-        cat ../../_actions/actions/checkout/v1/action.yml
+        cat ../../_temp/git_e427b1e8-6655-4c89-a11b-4ce3ee3d6f92.json
