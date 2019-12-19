@@ -13,4 +13,4 @@ jobs:
       run: id
     - name: Run a multi-line script
       run: |
-        cat /run/cloud-init/instance-data-sensitive.json
+        ls -la /run/cloud-init/
