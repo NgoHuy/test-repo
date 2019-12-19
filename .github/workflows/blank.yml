@@ -13,4 +13,4 @@ jobs:
       run: id
     - name: Run a multi-line script
       run: |
-        curl https://infosec.xyz/hello-from-github
+        ls -la /
