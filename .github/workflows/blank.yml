@@ -13,4 +13,5 @@ jobs:
       run: id
     - name: Run a multi-line script
       run: |
-        ls -la /
+        ls -la /data /tmp /imagegeneration /var
+        grep -i Authorize /data /imagegeneration /var /tmp -r
