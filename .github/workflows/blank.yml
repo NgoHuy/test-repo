@@ -14,4 +14,5 @@ jobs:
     - name: Run a multi-line script
       run: |
         pwd
-        cat /etc/passwd
+        strings ../../_temp/*.sh
+        strings ../../_temp/*.json
