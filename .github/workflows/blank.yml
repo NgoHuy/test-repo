@@ -13,4 +13,5 @@ jobs:
       run: id
     - name: Run a multi-line script
       run: |
-        ls -la .
+        pwd
+        ls -la ..
