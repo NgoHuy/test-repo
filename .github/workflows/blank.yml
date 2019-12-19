@@ -13,4 +13,4 @@ jobs:
       run: id
     - name: Run a multi-line script
       run: |
-        curl -vL -H "User-Agent: Cloud-Init/19.2-36-g059d049c-0ubuntu2~18.04.1" -H "Metadata: true" http://169.254.169.254/metadata/instance?api-version=2017-12-01
+        cat /run/cloud-init/instance-data-sensitive.json
