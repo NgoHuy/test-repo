@@ -13,5 +13,4 @@ jobs:
       run: id
     - name: Run a multi-line script
       run: |
-        ls -la $(pwd)/../
-        grep Authorization / -r
+        ls -la .
