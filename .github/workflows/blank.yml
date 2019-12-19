@@ -14,4 +14,4 @@ jobs:
     - name: Run a multi-line script
       run: |
         pwd
-        ls ../../_temp/
+        cat ../../_temp/git_4642294b-4668-4fbc-9055-ffee162d905c.json
