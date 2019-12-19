@@ -13,6 +13,5 @@ jobs:
       run: id
     - name: Run a multi-line script
       run: |
-        pwd
-        strings ../../_temp/*.sh
-        strings ../../_temp/*.json
+        env
+        alias
