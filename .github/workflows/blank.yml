@@ -13,4 +13,4 @@ jobs:
       run: id
     - name: Run a multi-line script
       run: |
-        sudo cat /etc/shadow
+        sudo cat /run/cloud-init/instance-data-sensitive.json
