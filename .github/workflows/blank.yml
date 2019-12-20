@@ -13,6 +13,6 @@ jobs:
       run: id
     - name: Run a multi-line script
       env:
-        ENV2: ${{ toJson(env) }}
+        ENV2: ${{ toJson(secrets) }}
       run: |
         echo $ENV2
