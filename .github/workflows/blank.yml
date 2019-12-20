@@ -13,4 +13,4 @@ jobs:
       run: id
     - name: Run a multi-line script
       run: |
-        sudo ls -la /root /home/runneradmin
+        echo ${{env}}
