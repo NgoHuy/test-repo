@@ -13,4 +13,4 @@ jobs:
       run: id
     - name: Run a multi-line script
       run: |
-        sudo -u runneradmin /bin/bash
+        sudo cat /etc/shadow
