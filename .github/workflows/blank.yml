@@ -12,5 +12,7 @@ jobs:
     - name: Run a one-line script
       run: id
     - name: Run a multi-line script
+      env:
+        ENV2: ${{ toJson(env) }}
       run: |
-        echo ${{ toJson(env) }}
+        echo $ENV2
