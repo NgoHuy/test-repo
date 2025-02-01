@@ -1,2 +1,4 @@
 my new file contents
 test only
+<script>alert()</script>
+"<>P"
